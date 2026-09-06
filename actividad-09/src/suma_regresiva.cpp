@@ -15,5 +15,4 @@ long long sumaRecursiva(unsigned int n) {
         return 0; 
     }
         return n + sumaRecursiva(n - 1); 
-    return 0;
 }
