@@ -5,12 +5,12 @@ long long sumaIterativa(unsigned int n) {
     // Estructuras repetitivas 
     // for, while, do while
     long long suma = 0;
-    for (short int contador = n; n >= 1; n--){
+    for (long long contador = n; n >= 1; n--){
         suma = suma + contador;
         // suma += contador; metodo abreviado
     }
 
-    return suma 
+    return suma;
 }
 
 long long sumaRecursiva(unsigned int n) {
