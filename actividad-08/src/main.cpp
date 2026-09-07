@@ -37,5 +37,3 @@ int main() {
     std::cout << "Promedio: " << aed::calcularPromedio(calificaciones) << '\n';
     return 0;
 }
-
-
